@@ -1,5 +1,6 @@
 {
     "name": "aibayanyu/tp-test",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +16,7 @@
 	},
     "extra": {
         "think": {
-            "config": "src/config/test1.php"
+            "test1": "src/config/config.php"
         },
         "services": [
             "aibayanyu\\jwt\\Service"
@@ -26,5 +27,6 @@
             "aibayanyu\\jwt\\": "src/"
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.1",
+    "description": "thinkphp lib"
 }

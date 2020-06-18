@@ -8,10 +8,12 @@
 namespace aibayanyu\jwt;
 
 
+use aibayanyu\jwt\command\TestCommand;
+
 class Service extends \think\Service
 {
     public function boot()
     {
-        $this->commands("");
+        $this->commands(TestCommand::class);
     }
 }
