@@ -16,11 +16,13 @@
 	},
     "extra": {
         "think": {
-            "test1": "src/config/config.php"
-        },
-        "services": [
-            "aibayanyu\\jwt\\Service"
-        ]
+            "config": {
+                "test1": "src/config/config.php"
+            },
+            "services": [
+                "aibayanyu\\jwt\\Service"
+            ]
+        }
     },
     "autoload": {
         "psr-4": {
