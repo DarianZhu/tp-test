@@ -16,7 +16,7 @@ class TestCommand extends Command
 {
     protected function configure()
     {
-        $this->setName("jwt:test")
+        $this->setName("yanyu:test")
             ->setDefinition("this is my test");
     }
 
