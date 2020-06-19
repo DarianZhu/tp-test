@@ -17,7 +17,7 @@ class TestCommand extends Command
     protected function configure()
     {
         $this->setName("yanyu:test")
-            ->setDefinition("this is my test");
+            ->setDescription("test Aibayanyu");
     }
 
     protected function execute(Input $input, Output $output)
